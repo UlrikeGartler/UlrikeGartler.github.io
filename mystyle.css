@@ -8,19 +8,71 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 40px;	
 }
 
 #evolutionline{
 	display: block;
 	margin-left: 19px;
 	margin-right: auto;
+	padding: 40px;
+	
 }
+#saisart{
+	font-family: georgia, serif;
+	font-size: 1em;
+	line-height: 100%;
+	text-align: justify;
+}
+#psaisart{
+	align: center;
+}
+
+#list{
+	font-family: georgia, serif;
+	font-size: 1.5em;
+	line-height: 100%;
+	
+	line-height: 150%;
+}
+
+#pdf{
+	padding: 30px;
+	width: 94%;
+	height: 500px; 
+	border:none;
+}
+
+#article{
+	
+	padding-top: 20px;
+	padding-bottom: none;
+	text-align: center;
+	
+}
+#h1{
+	font-weight: normal;
+	text-decoration: underline;
+}
+#h2{
+	font-size: 1em;
+	
+}
+
 
 .evolution {
   width: 30%;
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.pictureline{
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 header{
 	padding-top: 20px;
@@ -81,8 +133,8 @@ nav{
 
 nav ul{
 	list-style-type: none;
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 70px;
+	margin-left: 70px;
 }
 
 nav ul li{
@@ -103,15 +155,13 @@ nav ul li a{
 
 section{
 	width: 960px;
-	height: 650px;
-	
+	height: auto;	
 	background: lavenderblush;
 }
 
 
 
 footer{
-	height: 50px;
-	clear: both;
+	height: 50px;	
 	background: whitesmoke;
 }
