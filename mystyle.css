@@ -1,5 +1,5 @@
 #wrapper{
-	width: 50%;
+	width: 960px;
 	margin-right: auto;
 	margin-left: auto;	
 }
@@ -12,11 +12,10 @@
 }
 
 #evolutionline{
-	
+	display: block;
 	margin-left: 19px;
 	margin-right: auto;
 	padding: 40px;
-	
 	
 }
 #saisart{
@@ -25,7 +24,9 @@
 	line-height: 100%;
 	text-align: justify;
 }
-
+#psaisart{
+	align: center;
+}
 
 #list{
 	font-family: georgia, serif;
@@ -45,7 +46,7 @@
 #article{
 	
 	padding-top: 20px;
-	
+	padding-bottom: none;
 	text-align: center;
 	
 }
@@ -70,8 +71,6 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background-clip: content-box;
-	box-shadow:  0 0 0 20px white;
 }
 
 
@@ -100,7 +99,7 @@ p{
 }
 
 footer{
-	width: 100%;
+	width: 960px;
 	height: 50px;
 }
 
@@ -116,7 +115,7 @@ li a:visited {
 
 li a:hover {
   color: white;
-  background-color: black;
+  background-color: black:
 }
 
 nav a.active {
@@ -155,12 +154,14 @@ nav ul li a{
 }
 
 section{
-	width: 100%;
+	width: 960px;
 	height: auto;	
-	background: lightsteelblue;
+	background: lavenderblush;
 }
+
+
 
 footer{
 	height: 50px;	
-	background: mistyrose;
+	background: whitesmoke;
 }
